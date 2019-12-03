@@ -1,0 +1,15 @@
+.hidden {
+    display: none!important;
+}
+.navbar-dropdown {
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: 0 0 5px 0;
+}
+.navbar-dropdown .navbar-logo img {
+    height: 5rem;
+}
+.navbar-dropdown .nav-dropdown {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
