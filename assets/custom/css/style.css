@@ -43,3 +43,13 @@
 .whatsapp-btn {
     height: 1.5em;
 }
+@media (max-width: 768px) {
+    .navbar-toggler {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+    .navbar-brand {
+        margin-right: 0!important;
+        width: 80%;
+    }
+}
