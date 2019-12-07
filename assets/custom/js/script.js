@@ -4,4 +4,9 @@ $(document).ready(function(){
     }, function() {
         $(this).removeClass('open');
     });
+    $('.card .card-block').accordion({
+        collapsible: true,
+        active: false,
+        heightStyle: "content"
+    });
 });

@@ -13,3 +13,33 @@
     padding-top: 1.5em;
     padding-bottom: 1.5em;
 }
+.card .card-block h3 {
+    font-family: unset;
+    font-size: 1.15em;
+    text-align: left;
+    border: 1px solid #e5e5e5;
+    background-color: #e5e5e5;
+    padding: 0.25em;
+}
+.card .card-block h3::after {
+    content: "+";
+    float: right;
+    font-weight: bold;
+}
+.card .card-block h3.ui-accordion-header-active::after {
+    content: "-";
+    float: right;
+    font-weight: bold;
+}
+.card .card-block h3 .price {
+    font-weight: bold;
+}
+.card .card-block h3 .price::before {
+    content: "@ ";
+}
+.list-group-item:first-child {
+    border: none;
+}
+.whatsapp-btn {
+    height: 1.5em;
+}
