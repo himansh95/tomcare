@@ -15,7 +15,7 @@
 }
 .card .card-block h3 {
     font-family: unset;
-    font-size: 1.15em;
+    font-size: 1.05em;
     text-align: left;
     border: 1px solid #e5e5e5;
     background-color: #e5e5e5;
@@ -35,7 +35,7 @@
     font-weight: bold;
 }
 .card .card-block h3 .price::before {
-    content: "@ ";
+    content: "@ ₹ ";
 }
 .list-group-item:first-child {
     border: none;
@@ -52,4 +52,48 @@
         margin-right: 0!important;
         width: 80%;
     }
+}
+/*default version*/
+@font-face {
+	font-family: 'audiowide-regular';
+	src: url('../fonts/Audiowide-Regular.ttf'); 
+	src: 
+		local('Audiowide Regular'),
+		local('Audiowide-Regular'),
+		url('../fonts/Audiowide-Regular.ttf') 
+		format('truetype');
+}
+/*bold version*/
+@font-face {
+	font-family: 'audiowide-bold';
+	src: url('../fonts/Audiowide-Regular.ttf'); 
+	src: 
+		local('Audiowide Regular'),
+		local('Audiowide-Regular'),
+		url('../fonts/Audiowide-Regular.ttf') 
+		format('truetype');
+	font-weight: bold;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4 {
+    font-family: "Audiowide-Regular", sans-serif;
+}
+.mbr-section-title {
+    text-transform: capitalize;
+}
+.tag-small {
+    font-size: 1.75rem;
+}
+.tag-large {
+    font-size: 4rem;
+}
+.mbr-table-cell {
+    vertical-align: top;
+    padding-top: 5rem;
+    text-align: center;
+}
+.google-map-link img {
+    padding: 0;
+    margin-top: -0.5rem;
+    height: 2.5em;
+    border-radius: 50%;
 }
