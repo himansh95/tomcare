@@ -109,6 +109,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .d
 }
 #refund-and-cancellation {
     background-color: bisque;
+    min-height: calc(100vh);
+}
+#privacy-policy {
+    background-color: aliceblue;
+    min-height: calc(100vh);
+}
+#terms-and-conditions {
+    background-color: mediumaquamarine;
     min-height: calc(100vh - 7.5rem);
 }
 footer {
