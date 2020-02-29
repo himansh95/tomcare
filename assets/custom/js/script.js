@@ -11,6 +11,9 @@ $(document).ready(function(){
         })
         $('#google-form').attr('width', '350');
     }
+    $('button.navbar-toggler').click(function() {
+        $('ul.nav-dropdown').toggleClass('collapse');
+    });
     $('.card .card-block').accordion({
         heightStyle: 'content'
     });
