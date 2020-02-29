@@ -109,4 +109,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .d
 }
 #refund-and-cancellation {
     background-color: bisque;
+    min-height: calc(100vh - 7.5rem);
+}
+footer {
+    background-color: rgb(38, 39, 44);
+    padding-top: 3rem;
+    padding-bottom: 1.98rem;
+    height: 7.5rem;
 }
