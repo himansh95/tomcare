@@ -107,3 +107,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .d
 .card-header {
     font-size: 1.5em;
 }
+#refund-and-cancellation {
+    background-color: bisque;
+}
