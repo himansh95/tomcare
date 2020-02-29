@@ -12,6 +12,6 @@ $(document).ready(function(){
         $('#google-form').attr('width', '350');
     }
     $('.card .card-block').accordion({
-        heightStyle: "content"
+        heightStyle: 'content'
     });
 });
